@@ -1,67 +1,55 @@
-﻿# Bomb The Enemy RTS(Real-time strategy) 
-<hr style="border: 1px solid orange;">
+# Bomb The Enemy RTS (Real-time strategy)
+
+---
 
 ## Programming Languages:
-
-* ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
-* ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+* ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 
 ## Intro:
-Welcome to Bomb The Enemy is a real-time strategy game.
-The game is divided into 2 games modes:
+Welcome to Bomb The Enemy, a real-time strategy game.
 
-*Mini Games:*<br>
+The game is divided into two game modes:
+
+### Mini Games:
 In the menu, you can choose one of the mini-games to play:
-- Tic Tac Toe Player vs Computer __(AI using MinMax Algorithm)__:<br>
-<img src="assets/images/tictactoe.png" style="width: 200px; height: 100px;" />
 
-- Bomb It:<br>
-<img src="assets/images/BombIt.png" style="width: 200px; height: 100px;" />
+1. Tic Tac Toe Player vs. Computer (AI using MinMax Algorithm)
 
-*Main Game:*<br>
-In this game mode, you will play against the dragons, 
-and you have to open the gates by finding matching keys(same color), then you will be able to go to the next level.
-you can use bomb to kill the dragons, but be careful or destroy boxes and find the keys.
-You can kill the enemies by aiming and shooting at them using bows and arrows.
+   ![Tic Tac Toe](assets/images/tictactoe.png)
 
-<img src="assets/images/Screenshot 2023-07-12 154813.png" style="width: 300px; height: 200px;" />
-<img src="assets/images/Screenshot 2023-07-12 165014.png" style="width: 300px; height: 200px;" />
-<img src="assets/images/Screenshot 2023-07-12 165315.png" style="width: 300px; height: 200px;" />
-<img src="assets/images/Screenshot 2023-07-12 165356.png" style="width: 300px; height: 200px;" />
-<img src="assets/images/Screenshot 2023-07-12 165442.png" style="width: 300px; height: 200px;" /><br/>
-<img src="assets/images/MergedImages_auto_x2.jpg" style="width: 400px; height: 300px;" />
+2. Bomb It
 
+   ![Bomb It](assets/images/BombIt.png)
+
+### Main Game:
+In the main game mode, you will play against dragons. Your objective is to open gates by finding matching keys (same color) to progress to the next level. You can use bombs to kill the dragons, but be careful not to destroy the boxes containing the keys. Use bows and arrows to aim and shoot at the enemies.
+
+![Screenshot 1](assets/images/Screenshot1.png)
+![Screenshot 2](assets/images/Screenshot2.png)
+![Screenshot 3](assets/images/Screenshot3.png)
 
 ## Controls:
-
 ### Keyboard & Mouse:
-- `W` `A` `S` `D` OR `Arrow Keys` - Move
-- `Mouse Left Click` - Shoot and `Mouse Right Click` - Aim (In Game)
-- `Space` - Jump and `Shift` - Run
-- `B` - Activate Bomb
-- `ESC` - Open Pause Menu (In Game)
-
+- `W`, `A`, `S`, `D` or Arrow Keys - Move
+- Left Mouse Click - Shoot
+- Right Mouse Click - Aim (In Game)
+- Space - Jump
+- Shift - Run
+- B - Activate Bomb
+- ESC - Open Pause Menu (In Game)
 
 ## Libraries:
-
-- Mirror - <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Link</a><br>
-<img src="https://mirror-networking.com/wp-content/uploads/2022/07/mirror_icon_1950x1300_M_reviews_SMALL.png" style="width: 300px; height: 200px;" />
-
-- NavMesh - <a href="https://docs.unity3d.com/2023.2/Documentation/Manual/nav-BuildingNavMesh.html">Link</a> <br>
-<img src="https://i.ytimg.com/vi/CHV1ymlw-P8/maxresdefault.jpg" style="width: 300px; height: 200px;" />
-
-- Profiler - <a href="https://docs.unity3d.com/2021.2/Documentation/Manual/Profiler.html">Link</a> <br>
-<img src="http://blog.theknightsofunity.com/wp-content/uploads/2015/11/c1519f19-2abe-43b5-bf7b-dc1d65c107bd.png" style="width: 300px; height: 200px;" />
-
+- **Mirror** - Networking library for Unity. [Link](https://assetstore.unity.com/packages/tools/network/mirror-129321)
+- **NavMesh** - Unity's built-in navigation mesh system for pathfinding. [Link](https://docs.unity3d.com/2023.2/Documentation/Manual/nav-BuildingNavMesh.html)
+- **Profiler** - Unity's profiler for performance analysis. [Link](https://docs.unity3d.com/2021.2/Documentation/Manual/Profiler.html)
 
 ## Contact us:
-
-- Ola's Email: <a href="mailto:olaib@edu.hac.ac.il">olaib@edu.hac.ac.il</a>
-- Lamaah's Email: <a href="mailto:lamaahja@edu.hac.ac.il">lamaahja@edu.hac.ac.il</a>
+- Ola's Email: [olaib@edu.hac.ac.il](mailto:olaib@edu.hac.ac.il)
+- Lamaah's Email: [lamaahja@edu.hac.ac.il](mailto:lamaahja@edu.hac.ac.il)
 
 ## Credits:
-
-- <a href="https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA">Brackeys</a>
-- <a href="https://learn.unity.com/tutorials">Unity Learn</a>
-- <a href="https://docs.unity3d.com/2023.2/Documentation/Manual/nav-BuildingNavMesh.html">NavMesh</a>
-- <a href="https://assetstore.unity.com">Unity Asset Store</a>
+- [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
+- [Unity Learn](https://learn.unity.com/tutorials)
+- [NavMesh](https://docs.unity3d.com/2023.2/Documentation/Manual/nav-BuildingNavMesh.html)
+- [Unity Asset Store](https://assetstore.unity.com)
