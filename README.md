@@ -25,9 +25,10 @@ In the menu, you can choose one of the mini-games to play:
 ### Main Game:
 In the main game mode, you will play against dragons. Your objective is to open gates by finding matching keys (same color) to progress to the next level. You can use bombs to kill the dragons, but be careful not to destroy the boxes containing the keys. Use bows and arrows to aim and shoot at the enemies.
 
-![Screenshot 1](assets/images/Screenshot1.png)
-![Screenshot 2](assets/images/Screenshot2.png)
-![Screenshot 3](assets/images/Screenshot3.png)
+
+![Screenshot 1](assets/images/2023-07-12 154813.png)
+![ 2](assets/images/Screenshot 2023-07-12 165014.png)
+![Screenshot 3](assets/images/Screenshot 2023-07-12 165315.png)
 
 ## Controls:
 ### Keyboard & Mouse:
