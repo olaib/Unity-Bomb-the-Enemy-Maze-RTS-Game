@@ -1,0 +1,446 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/olaib/Documents/Unity_Bomb_The_Enemy
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+49570
+Successfully changed project path to: C:/Users/olaib/Documents/Unity_Bomb_The_Enemy
+C:/Users/olaib/Documents/Unity_Bomb_The_Enemy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27148] Host "[IP] 172.24.96.1 [Port] 0 [Flags] 2 [Guid] 4224324697 [EditorId] 4224324697 [Version] 1048832 [Id] WindowsEditor(7,olaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27148] Host "[IP] 172.24.96.1 [Port] 0 [Flags] 2 [Guid] 4224324697 [EditorId] 4224324697 [Version] 1048832 [Id] WindowsEditor(7,olaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 861.31 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 3.91 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/olaib/Documents/Unity_Bomb_The_Enemy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013666 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 775.79 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.720 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2721ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2137ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (776ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (510ms)
+				ProcessInitializeOnLoadMethodAttributes (160ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031165 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 804.20 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Mirror.Welcome:OnInitializeOnLoad () (at Assets/Mirror/Editor/Welcome.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8298ms)
+		BeginReloadAssembly (385ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (7528ms)
+			LoadAssemblies (402ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1414ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (339ms)
+			SetupLoadedEditorAssemblies (5223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (805ms)
+				BeforeProcessingInitializeOnLoad (651ms)
+				ProcessInitializeOnLoadAttributes (3164ms)
+				ProcessInitializeOnLoadMethodAttributes (568ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 8236 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.1 MB). Loaded Objects now: 8684.
+Memory consumption went from 405.6 MB to 404.6 MB.
+Total: 51.862700 ms (FindLiveObjects: 1.418400 ms CreateObjectMapping: 1.536400 ms MarkObjects: 47.585000 ms  DeleteObjects: 1.319800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300447.502198 seconds.
+  path: Assets/Scripts/New Folder
+  artifactKey: Guid(d9d7fd372714d544a8b306db2bf10635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Folder using Guid(d9d7fd372714d544a8b306db2bf10635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda5f59289a69624ca6170c3d0dd9142') in 0.053855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.681454 seconds.
+  path: Assets/Scripts/Bomb Variant.prefab
+  artifactKey: Guid(d16b21b52d89ecb4390af53d9fe7d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb Variant.prefab using Guid(d16b21b52d89ecb4390af53d9fe7d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484dcb56fde73d4888a7b252c8c378f7') in 0.935912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.100743 seconds.
+  path: Assets/Scripts/scripts
+  artifactKey: Guid(d9d7fd372714d544a8b306db2bf10635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/scripts using Guid(d9d7fd372714d544a8b306db2bf10635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e7651480ea49651bd9210aeed2d53c') in 0.030818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.548404 seconds.
+  path: Assets/Scripts/AttakeState.cs
+  artifactKey: Guid(f55d5787b476bce43a28c59dfb4dddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AttakeState.cs using Guid(f55d5787b476bce43a28c59dfb4dddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21408b071f9f1b9b00e5d9045359d00') in 0.042014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.296461 seconds.
+  path: Assets/Scripts/MusicVolumeSlider.cs
+  artifactKey: Guid(2d743c6fddfe57042a0ee20d57769421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicVolumeSlider.cs using Guid(2d743c6fddfe57042a0ee20d57769421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74ccd23f4595780fe93f4e6cd830c8') in 0.032292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.856631 seconds.
+  path: Assets/Scripts/CheckMusicVolume.cs
+  artifactKey: Guid(16dea0609545ce94f855c46cdec63cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CheckMusicVolume.cs using Guid(16dea0609545ce94f855c46cdec63cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14118461bba5e98090b627c868d1d7b3') in 0.029650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.445172 seconds.
+  path: Assets/Scripts/chaseState.cs
+  artifactKey: Guid(edefcc57ce14a8148ba1eb270ce4f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/chaseState.cs using Guid(edefcc57ce14a8148ba1eb270ce4f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94d9dd18f9e94702dbe3709c49bfb7f') in 0.028597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755977 seconds.
+  path: Assets/Scripts/Distructable.cs
+  artifactKey: Guid(4c98e6c6eca709546b9a5d8ddd41f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Distructable.cs using Guid(4c98e6c6eca709546b9a5d8ddd41f0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8464f4806e7abc208d12693c018d6c') in 0.024438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.445734 seconds.
+  path: Assets/Scripts/doorControl.cs
+  artifactKey: Guid(be2844fe45f8fcf4da14b4a6b1168ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/doorControl.cs using Guid(be2844fe45f8fcf4da14b4a6b1168ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f404a6c3b8e522e1aea010116e2e81ae') in 0.024868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244885 seconds.
+  path: Assets/Scripts/Dragon.cs
+  artifactKey: Guid(1b1ef01b25f0a6f46a80eb0f35a13aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dragon.cs using Guid(1b1ef01b25f0a6f46a80eb0f35a13aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce91b2a19ecc20f8f4342513bf792a16') in 0.025479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131820 seconds.
+  path: Assets/Scripts/enemy.cs
+  artifactKey: Guid(db27c200623b50e4c915a2ac82404469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/enemy.cs using Guid(db27c200623b50e4c915a2ac82404469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab62029c6028a9202471d7cb2169e13') in 0.029500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164473 seconds.
+  path: Assets/Scripts/LoadNextLevel.cs
+  artifactKey: Guid(fa06880ee00aa4a48b71d65b9d654360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadNextLevel.cs using Guid(fa06880ee00aa4a48b71d65b9d654360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f223b3dcd58282f63acd6dbc93d474') in 0.024357 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.59 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8878ms)
+		BeginReloadAssembly (603ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (210ms)
+		EndReloadAssembly (7912ms)
+			LoadAssemblies (392ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1348ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (204ms)
+			SetupLoadedEditorAssemblies (4260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (630ms)
+				ProcessInitializeOnLoadAttributes (2958ms)
+				ProcessInitializeOnLoadMethodAttributes (633ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (52ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 32.04 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 8072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 114 unused Assets / (1.1 MB). Loaded Objects now: 8755.
+Memory consumption went from 404.9 MB to 403.8 MB.
+Total: 57.159500 ms (FindLiveObjects: 2.010600 ms CreateObjectMapping: 2.100200 ms MarkObjects: 51.422600 ms  DeleteObjects: 1.622900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 86.832424 seconds.
+  path: Assets/Scripts/LevelController.cs
+  artifactKey: Guid(611eba3cb611eac409f0430ac81bbe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelController.cs using Guid(611eba3cb611eac409f0430ac81bbe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0a896b31581b90bd3858a7186b1c29') in 0.055371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.875761 seconds.
+  path: Assets/Canvas.prefab
+  artifactKey: Guid(718d10c7f7ef21646a4c8ce23bf5f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canvas.prefab using Guid(718d10c7f7ef21646a4c8ce23bf5f18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed5d75eaa0b53e54537045bf9bef70b') in 0.339737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.411029 seconds.
+  path: Assets/GameOverScene.unity
+  artifactKey: Guid(674512d977b7a9e4f95ef6677a091393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameOverScene.unity using Guid(674512d977b7a9e4f95ef6677a091393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd0d4ead712325833bcd8ce17cd2c58') in 0.024945 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 9.94 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\olaib\Documents\Unity_Bomb_The_Enemy\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7512ms)
+		BeginReloadAssembly (657ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (237ms)
+		EndReloadAssembly (6484ms)
+			LoadAssemblies (441ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1601ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (238ms)
+			SetupLoadedEditorAssemblies (2790ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (438ms)
+				ProcessInitializeOnLoadAttributes (1794ms)
+				ProcessInitializeOnLoadMethodAttributes (507ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 8072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (1.0 MB). Loaded Objects now: 8771.
+Memory consumption went from 406.5 MB to 405.5 MB.
+Total: 43.310900 ms (FindLiveObjects: 1.390600 ms CreateObjectMapping: 1.482800 ms MarkObjects: 39.061800 ms  DeleteObjects: 1.372500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245.789145 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(b0370a528b5f3704eafeb751e5433782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(b0370a528b5f3704eafeb751e5433782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cdaa8356f1fbd74487c0984f775d3c') in 0.072613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.571010 seconds.
+  path: Assets/Scripts/GameOver.cs
+  artifactKey: Guid(aa31d0f3c139cff42ba9fb0a705ec106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOver.cs using Guid(aa31d0f3c139cff42ba9fb0a705ec106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349b4f739c29e2c64f4ceb349538b2aa') in 0.027579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.646318 seconds.
+  path: Assets/Scripts/TicTacController.cs
+  artifactKey: Guid(fbf575d714e220b44a8553f8a8206b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TicTacController.cs using Guid(fbf575d714e220b44a8553f8a8206b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c812dcb51debeefad1a9547c757f83') in 0.023778 seconds 
