@@ -3,18 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
+/**
+* mini game scene enum list
+*/
 public enum MiniGameScene
 {
     BullsCowsGame,
     MainGame,
+    Level2,
     GamOver,
     LevelUp,
     None
 }
+/**
+* Game manager class - singleton.
+* Manages the game state and scene loading.
+*/
 public class GameManager : MonoBehaviour
 {
+    // ================================ MEMBERS =================================== //
     private static GameManager instance;
     private bool isPaused = false;
     private bool isGameFinished = false;
@@ -24,12 +31,16 @@ public class GameManager : MonoBehaviour
     {
         { MiniGameScene.BullsCowsGame, "BullsAndCowsGame" },
         { MiniGameScene.MainGame, "Level-01" },
+        { MiniGameScene.Level2, "Level-02" },
         { MiniGameScene.GamOver, "GameOverScene" },
         { MiniGameScene.LevelUp, "LevelUpScene" },
         { MiniGameScene.None, ""}
     };
 
-
+    /**
+    * Get the instance of the game manager
+    * @return the instance of the game manager
+    */
     public static GameManager Instance()
     {
         if (instance == null)
@@ -47,10 +58,12 @@ public class GameManager : MonoBehaviour
 
         return instance;
     }
-
+    /**
+    * Awake method - called before start
+    */
     private void Awake()
     {
-        if (instance != null && instance != this)
+        if (instance != null && instance != this)   
         {
             Destroy(gameObject);
         }
@@ -62,19 +75,27 @@ public class GameManager : MonoBehaviour
 
         gameCamera = Camera.main;
     }
-
+    /**
+    * Pause the game - set the time scale to 0
+    */
     public void PauseGame()
     {
         isPaused = true;
         Time.timeScale = 0f;
     }
+    /**
+    * Resume the game - set the time scale to 1
+    */
 
     public void ResumeGame()
     {
         isPaused = false;
         Time.timeScale = 1f;
     }
-
+    /**
+    * play mini game - load the mini game scene
+    * @param miniGame - the mini game scene to load
+    */
     public void PlayMiniGame(MiniGameScene miniGame)
     {
         isGameFinished = true;
@@ -93,7 +114,10 @@ public class GameManager : MonoBehaviour
             miniGameCamera.gameObject.SetActive(true);
         }
     }
-
+    /**
+    * Load scene async - load the scene async
+    * @param sceneName - the scene name to load
+    */
     IEnumerator LoadSceneAsync(string sceneName)
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
@@ -103,10 +127,17 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
     }
+    /**
+    * Load scene - load the scene
+    * @param sceneName - the scene name to load
+    */
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
+    /**
+    * Resume main game - resume the main game
+    */
     public void ResumeMainGame()
     {
         // Disable the mini game camera
@@ -124,7 +155,9 @@ public class GameManager : MonoBehaviour
         // Enable the main game camera again
         gameCamera.gameObject.SetActive(true);
     }
-
+    /**
+    * Update method - called once per frame
+    */
     private void Update()
     {
         if (isGameFinished && gameCamera.gameObject.activeSelf)
@@ -133,18 +166,25 @@ public class GameManager : MonoBehaviour
             gameCamera.gameObject.SetActive(false);
         }
     }
-
+    /**
+    * load the game over scene
+    */
     public void GameOver()
     {
         SceneManager.LoadScene(sceneList[MiniGameScene.GamOver]);
     }
+    /**
+    * load the level up scene
+    */
     public void LevelCompleted()
     {
         SceneManager.LoadScene(sceneList[MiniGameScene.LevelUp], LoadSceneMode.Single);
     }
-
+    /**
+    * load the main game scene
+    */
     public void ReloadLevel()
     {
-        SceneManager.LoadScene(sceneList[MiniGameScene.MainGame], LoadSceneMode.Single);
+        LoadScene(sceneList[MiniGameScene.Level2]);
     }
-}
+} 
