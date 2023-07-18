@@ -38,12 +38,12 @@ In the main game mode, you will play against dragons. Your objective is to open 
 - `W`, `A`, `S`, `D` or Arrow Keys - Move
 - Left Mouse Click - Shoot
 - Right Mouse Click - Aim (In Game)
-- Space - Jump
-- Shift - Run
-- B - Activate Bomb
+- `Space` - Jump
+- `Shift` - Run
+- `B` - Activate Bomb
 - Left Mouse Click - Take Object (like Bomb)
-- Q to Release Bomb
-- ESC - Open Pause Menu (In Game)
+- `Q` to Release Bomb
+- `ESC` - Open Pause Menu (In Game)
 
 
 ## Libraries:
