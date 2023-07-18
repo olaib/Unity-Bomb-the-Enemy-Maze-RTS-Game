@@ -14,12 +14,11 @@ The game is divided into two game modes:
 ### Mini Games:
 In the menu, you can choose one of the mini-games to play:
 
-1. Tic Tac Toe Player vs. Computer (AI using MinMax Algorithm)
+1. Tic Tac Toe Player vs. Computer (AI using MinMax Algorithm).
 
    ![Tic Tac Toe](assets/images/tictactoe.png)
 
-2. Bomb It
-
+2. Bomb It: a simple arcade game ,Tap on the screen to jump. Jump Up through the moving obstacles.
    ![Bomb It](assets/images/BombIt.png)
 
 ### Main Game:
