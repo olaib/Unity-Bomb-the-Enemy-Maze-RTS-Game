@@ -41,7 +41,10 @@ In the main game mode, you will play against dragons. Your objective is to open 
 - Space - Jump
 - Shift - Run
 - B - Activate Bomb
+- Left Mouse Click - Take Object (like Bomb)
+- Q to Release Bomb
 - ESC - Open Pause Menu (In Game)
+
 
 ## Libraries:
 - **Mirror** - Networking library for Unity. [Link](https://assetstore.unity.com/packages/tools/network/mirror-129321)
